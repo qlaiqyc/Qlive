@@ -370,7 +370,7 @@
 		//根据设置默认请求  加载JS 数目
 		FunUtil.Global.id = data.info.id;
 		
-		
+		data.info.fun();
 		
 	};
 	

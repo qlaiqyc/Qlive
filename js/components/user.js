@@ -43,11 +43,9 @@ PageInfo.register({"type":"Obj","info":function(){
 			    	var $this = this;
 			    	
 			    	$("#common-user-btn").unbind("click").bind("click",function(){
-			    		FunUtil.Global.child = {"id":123};
+			    		FunUtil.Global.child = {"id":456};
+			    		$("div.qlive-foot a:nth-child(3)").trigger("click");
 			    	});
-			    	
-			    	
-			    	
 			    	
 			    },
 			    hide(){

@@ -34,6 +34,7 @@ PageInfo.register({"type":"Obj","info":function(){
 			    },
 			    show(){
 			         console.log("==article==show")
+			         console.log(this.data());
 			    },
 			    hide(){
 			    	 console.log("==article==hide")

@@ -1,11 +1,20 @@
 PageInfo.register({"type":"Pub","info":(function(){
 	
-	var PageObj = {};
+	var PageObj	= {};
+	PageObj.id	= "qlive-body";
 
+	PageObj.fun = function(){
+		
+		
+		$("div.qlive-foot a").unbind("click").bind("click",function(){
+			$("div.qlive-foot a").removeClass("active");	
+			$(this).addClass("active");
+		});
+		
+		
+		
+	};
 
-	PageObj.id = "qlive-body";
-
-	
 	
 	return PageObj;
 })()});
